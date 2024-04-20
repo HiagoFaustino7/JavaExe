@@ -20,7 +20,7 @@ class Main {
 		
 		int total = x + z;
 		
-		//tendeu
+		//opoa
 		
 		
 		System.out.println("A soma dos mesmos é: " + total);
