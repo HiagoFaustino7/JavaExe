@@ -20,7 +20,7 @@ class Main {
 		
 		int total = x + z;
 		
-		//opoa
+		//segundo commit test
 		
 		
 		System.out.println("A soma dos mesmos é: " + total);
