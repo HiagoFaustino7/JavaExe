@@ -40,6 +40,7 @@ Fórmula da área: area = π . raio2
 Considere o valor de π = 3.14159
 */
 
+/*
 
 class Main {
 
@@ -64,5 +65,26 @@ class Main {
 
 }
 
+*/
+
+
+/*Fazer um programa para ler quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto
+de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).*/
+
+
+class Main {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+	    
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+
+	}
+
+}
 
 
