@@ -99,4 +99,37 @@ class Main {
 
 /*Fazer um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por
 hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas
-decimais.*/
+decimais.
+
+*Entrada: Saída:
+25
+100
+5.50
+
+Saída:
+NUMBER = 25
+SALARY = U$ 550.00
+
+*/
+class Main {
+	
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int idFunc = sc.nextInt();
+		int horas = sc.nextInt();
+		double salarioHora = sc.nextDouble();
+		
+		sc.close();
+		
+		double salario = horas * salarioHora;
+		
+		System.out.printf("O salario do funcionario %d é %.2f", idFunc, salario);
+		
+		
+		
+	}
+}
